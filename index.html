@@ -1,0 +1,66 @@
+<!-- 
+
+ Author/s: Noozee (@noonenooze)
+ Date Authored: 20.06.25, 6:46AM(PHT)
+
+ -->
+ 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>monochrome-simple-photocard-themed-portfolio</title>
+  <link rel="stylesheet" href="style.css"> <!-- File Path of your CSS -->
+  <link rel="icon" href="https://64.media.tumblr.com/a05e872423b2ff402453f3dc1989bc33/36e9b55f7317943b-6e/s500x750/a9f1fabab71275e90580772b0e732403b23a030f.pnj" type="logo">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+
+<div class="flip-container" onclick="flipCard(this)">
+  <div class="card-flip">
+    <!-- Front Side -->
+    <div class="card-side card-front">
+      <img src="https://i.pinimg.com/736x/b4/05/bb/b405bb814849b2eb646b3f49b1a603cc.jpg" alt="Profile Image" />
+      <p class="profile-label-new">noonenooze</p>
+      <h2 class="profile-name">NOOZEE</h2>
+      <p class="profile-subtitle">Position</p>
+    </div>
+
+    <!-- Back Side -->
+    <div class="card-side card-back">
+      <div class="bio-text">
+        hi i'm <strong>name</strong> or <strong>nickname</strong>! prn/prns<br>
+        00 race (ethnicity), sexuality, gender identity, MBTI<br><br>
+
+        <strong>follow me:</strong> 
+        <a href="#"> twitter </a> 
+        <a href="#"> spotify </a> 
+        <a href="#"> tumblr </a><br><br>
+
+        <strong>interests:</strong> faves, info, more<br>
+        <strong>byf:</strong> before you follow...<br>
+        <strong>dfi:</strong> don't follow if...
+      </div>
+      <div class="bio-footer">
+        made by <a href="https://github.com/lovjbini" target="_blank">@noonenooze</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function flipCard(container) {
+    const card = container.querySelector('.card-flip');
+    card.classList.toggle('flipped');
+  }
+</script>
+
+</body>
+</html>
+
+
+
